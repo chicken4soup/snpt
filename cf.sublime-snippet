@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define int long long 
+
+#ifndef ONLINE_JUDGE
+#include "debug.h"
+#else
+#define debug(...) 
+#endif
+
+void solve() {${1:}}
+
+int32_t main() {
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
+  
+  int tt;
+  cin >> tt;
+  while (tt--) {
+    solve();
+  }
+  return 0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

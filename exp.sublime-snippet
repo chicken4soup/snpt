@@ -1,0 +1,70 @@
+<snippet>
+	<content><![CDATA[
+#include <bits/stdc++.h>
+using namespace std;
+// #define int long long
+#define L(i, j, k) for(int i = (j); i <= (k); i++)
+#define R(i, j, k) for(int i = (j); i >= (k); i++)
+#define Z(a) ((int) (a).size())
+#define pb push_back
+#define eb emplace_back
+#define F first
+#define S second
+#define I insert
+#define all(x) begin(x), end(x)
+#define lb lower_bound
+#define ub upper_bound
+#define each(a, x) for (auto &a : x)
+
+// using ll = long long;
+using db = long double; // or double, if TL is tight
+using str = string;
+
+using pi = pair<int, int>;
+// using pl = pair<ll, ll>;
+using pd = pair<db, db>;
+#define tcT template <class T
+#define tcTU tcT, class U
+tcT > using V = vector<T>;
+tcT, size_t SZ > using AR = array<T, SZ>;
+using vi = V<int>;
+using vb = V<bool>;
+// using vl = V<ll>;
+using vs = V<str>;
+using vpi = V<pi>;
+// using vpl = V<pl>;
+using vpd = V<pd>;
+
+template <typename T> 
+istream &operator>>(istream &istream, vector<T> &v) { for (auto &it : v) { cin >> it; } return istream; }
+
+template <typename T1, typename T2>
+ostream &operator<<(ostream &ostream, const pair<T1, T2> &p) { return (ostream << p.first << " " << p.second); }
+
+template <typename T> 
+ostream &operator<<(ostream &ostream, const vector<T> &c) { for (auto &it : c) { cout << it << " "; } return ostream; }
+
+template <typename T>
+void print(T &&t) { cout << t << "\n"; }
+template <typename T, typename... Args>
+void print(T &&t, Args &&...args) { cout << t << " "; print(forward<Args>(args)...); }
+
+void solve() {${1:}}
+
+signed main() {
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
+  
+  int tt = 1;
+  cin >> tt;
+  while (tt--) {
+    solve();
+  }
+  return 0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>exp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

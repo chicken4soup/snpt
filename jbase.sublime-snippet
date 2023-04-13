@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+import java.util.*;
+import java.io.*;
+
+public class ${1:A} {
+
+    static void solve() {
+    	${2:}
+    }
+
+    public static void main(String[] args) {
+        int T = sc.nextInt();
+        while (T-- > 0) {
+            solve();
+        }
+        pw.close();
+    }
+
+    static Scanner sc = new Scanner(System.in);
+    static PrintWriter pw = new PrintWriter(System.out);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jbase</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

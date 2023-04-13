@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+for (int i = 1; i <= ${1:n}; i++) {
+	cout << i << " --> ";
+	for (auto [ftw, wtf]: ${2:g}[i]) {
+		cout << ftw << " " << wtf << ", ";
+	}
+	cout << "\n";
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rdwg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
